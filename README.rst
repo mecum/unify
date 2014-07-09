@@ -59,7 +59,6 @@ Windows :
 
 Launch the batch files ``dev/composer.bat`` and ``dev/phpunit.bat``
     
-        
 License 
 ----------
 
