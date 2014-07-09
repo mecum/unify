@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+    <php>
+        <ini name="intl.default_locale" value="en"/>
+        <ini name="intl.error_level" value="0"/>
+        <ini name="memory_limit" value="-1"/>
+    </php>
+
+    <testsuites>
+        <testsuite name="Unify Test Suite">
+            <directory>./src/Tests/</directory>
+            <directory>./src/extension/Tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

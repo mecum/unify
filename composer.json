@@ -1,0 +1,38 @@
+{
+    "name": "mecum/unify",
+    "description": "The data manipulation framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rudy Onfroy",
+            "email": "rudy@onfroy.net"
+        }
+    ],
+    
+    "autoload": { 
+        "psr-4": { "Mecum\\Unify\\": "src/" } 
+    },
+    
+    "require": {
+        "php": ">=5.4",
+        "mecum/expand": "1.0.*"
+    },
+    
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "symfony/Yaml": "2.5.*",
+        "phploc/phploc": "*",
+        "squizlabs/php_codesniffer": "*",
+        "sebastian/phpcpd": "*"
+    },
+    
+    "suggest": {
+        "symfony/Yaml": "Required for the xaml library"
+    },
+    
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
